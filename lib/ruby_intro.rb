@@ -2,7 +2,7 @@
 
 # Part 1
 
-def sum(arr)
+def sum arr
   # YOUR CODE HERE
   if arr == nil || arr.length == 0
     return 0
@@ -10,7 +10,7 @@ def sum(arr)
   return arr.sum
 end
 
-def max_2_sum(arr)
+def max_2_sum arr
   # YOUR CODE HERE
   if arr == nil || arr.length == 0
     return 0
@@ -23,7 +23,7 @@ def max_2_sum(arr)
   
 end
 
-def sum_to_n?(arr, n)
+def sum_to_n? arr, n
   # YOUR CODE HERE
   if arr == nil || arr.length <= 1
     return false
